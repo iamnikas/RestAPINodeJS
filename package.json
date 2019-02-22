@@ -1,0 +1,46 @@
+{
+  "name": "service-template",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "nodemon ./bin/www"
+  },
+  "dependencies": {
+    "async": "^2.6.0",
+    "body-parser": "~1.18.2",
+    "cookie-parser": "~1.4.3",
+    "data2xml": "^1.2.5",
+    "debug": "~2.6.9",
+    "easyxml": "^2.0.1",
+    "express": "~4.15.5",
+    "express-jwt": "^5.3.0",
+    "express-validator": "^4.3.0",
+    "intel": "^1.2.0",
+    "jade": "~1.11.0",
+    "js2xmlparser": "^3.0.0",
+    "jsdoc": "^3.5.5",
+    "json2xml": "^0.1.3",
+    "jsontoxml": "^0.1.0",
+    "jstoxml": "^1.1.3",
+    "morgan": "~1.9.0",
+    "obj2xml": "0.0.5",
+    "pg": "^7.4.0",
+    "raven": "^2.2.1",
+    "sequelize": "^4.17.2",
+    "serve-favicon": "~2.4.5",
+    "tedious": "^2.1.5",
+    "url": "^0.11.0",
+    "xml": "^1.0.1",
+    "xml-js": "^1.5.2",
+    "xml2js": "^0.4.19",
+    "xmlbuilder": "^9.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^4.12.1",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.8.0",
+    "eslint-plugin-node": "^5.2.1",
+    "eslint-plugin-promise": "^3.6.0",
+    "eslint-plugin-standard": "^3.0.1"
+  }
+}

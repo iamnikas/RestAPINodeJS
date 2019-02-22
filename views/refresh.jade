@@ -1,0 +1,16 @@
+extends layout
+
+block content
+  h1= title
+  
+  form(method="post" action="" class="col-md-10 col-md-offset-1 block-center text-center")
+    div(class="row form-group col-md-12")
+      div(class="col-md-6 form-group")
+        select(name="location", multiple="multiple", class="col-md-12 form-control")
+          - each item in locations
+            option(value=item.id) #{item.title}
+      div(class="col-md-offset-1 col-md-5 form-group")
+        input(type="text", name="coords", placeholder="Координаты(x.y.z): 426.85.345", class="col-md-12 form-control")
+        input(type="file", name="file", class="col-md-12 form-control")
+    div(class="row form-group offset-md-10 col-md-2")
+      input(type="submit", value="Update", class="btn btn-info")
