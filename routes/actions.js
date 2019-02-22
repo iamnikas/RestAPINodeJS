@@ -10,7 +10,7 @@ var router = express.Router();
 const availableFields = check(['userHash', 'locationId', 'format']); // разрешенные поля
 const mustBeFields = [check('userHash').exists(), check('locationId').exists()];
 
-
+// переписать на async/await
 /* Actions - получение всех пуш уведомлений 
  *
  * разрешенные поля - userHash, locationId, format
